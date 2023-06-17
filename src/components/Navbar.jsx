@@ -1,29 +1,50 @@
 import logoImg from "../images/logo.svg";
 
 const Navbar = () => {
-    return(
-        <nav className="navbar"> 
-            <div className="nav-center">
-                <div className="nav-header">
-                    <img src={logoImg} className="nav-logo" alt="backroads" />
-                    <button type="button" className="nav-toggle" id="nav-toggle">
-                        <i className="fas fa-bars" />
-                    </button>
+    return (
+        <nav class="navbar">
+            <div class="nav-center">
+                <div class="nav-header">
+                <img src={logoImg} class="nav-logo" alt="backroads" />
+                <button type="button" class="nav-toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
                 </div>
 
-                <ul className="nav-links" id="nav-links">
-                    <li>
-                        <a href="#home" className="nav-link">
-                            {" "}
-                            home {" "}
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#about" className="nav-link">
-                            {" "}
-                            about{" "}
-                        </a>
-                    </li>
+                <ul class="nav-links" id="nav-links">
+                <li>
+                    <a href="#home" class="nav-link"> home </a>
+                </li>
+
+                <li>
+                    <a href="#about" class="nav-link"> about </a>
+                </li>
+
+                <li>
+                    <a href="#services" class="nav-link"> services </a>
+                </li>
+
+                <li>
+                    <a href="#tours" class="nav-link"> tours</a>
+                </li>
+                </ul>
+
+                <ul class="nav-icons">
+                <li>
+                    <a href="https://www.twitter.com" target="_blank" class="nav-icon">
+                        <i class="fab fa-facebook" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank" class="nav-icon">
+                        <i class="fab fa-twitter" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank" class="nav-icon">
+                        <i class="fab fa-squarespace" />
+                    </a>
+                </li>
                 </ul>
             </div>
         </nav>
