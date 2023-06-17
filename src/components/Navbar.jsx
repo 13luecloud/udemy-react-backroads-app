@@ -28,7 +28,7 @@ const Navbar = () => {
                         return (
                             <li>
                                 <a href={socialMedia.link} target="_blank" className="nav-icon">
-                                    <i className={"fab fa-" + socialMedia.icon_name} />
+                                    <i className={socialMedia.icon_name} />
                                 </a>
                             </li>
                         )
