@@ -1,7 +1,8 @@
 import aboutImg from "../images/about.jpeg"
 
 const About = () => {
-    <section className="section" id="about">
+    return (
+        <section className="section" id="about">
         <div className="section-title">
             <h2> About <span>Us</span>
             </h2>
@@ -21,6 +22,7 @@ const About = () => {
             </article>
         </div>
     </section>
+    )
 }
 
 export default About
