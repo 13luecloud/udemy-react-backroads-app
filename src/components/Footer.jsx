@@ -18,7 +18,7 @@ const Footer = () => {
 
             <ul class="footer-icons">
                 <li>
-                <a href="https://www.twitter.com" target="_blank" class="footer-icon"
+                <a href="https://www.facebook.com" target="_blank" class="footer-icon"
                     ><i class="fab fa-facebook" />
                 </a>
                 </li>
@@ -28,12 +28,12 @@ const Footer = () => {
                 </a>
                 </li>
                 <li>
-                <a href="https://www.twitter.com" target="_blank" class="footer-icon"
-                    ><i class="fab fa-squarespace" />
+                <a href="https://www.tumblr.com" target="_blank" class="footer-icon"
+                    ><i class="fab fa-tumblr" />
                 </a>
                 </li>
             </ul>
-            
+
             <p class="copyright">
                 copyright &copy; Backroads travel tours company
                 <span id="date"></span> all rights reserved
