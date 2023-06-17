@@ -1,37 +1,29 @@
+import { socialMedias } from "../data.jsx";
+import { pageLinks } from "../data.jsx";
+
 const Footer = () => {
    return (
         <footer className="section footer">
             <ul class="footer-links">
-                <li>
-                    <a href="#home" className="footer-link"> home </a>
-                </li>
-                <li>
-                    <a href="#about" className="footer-link"> about </a>
-                </li>
-                <li>
-                    <a href="#services" className="footer-link"> services </a>
-                </li>
-                <li>
-                    <a href="featured" className="footer-link"> featured </a>
-                </li>
+                {pageLinks.map((pageLink) => {
+                    return (
+                        <li>
+                            <a href={pageLink.link} className="footer-link"> {pageLink.text} </a>
+                        </li>
+                    )
+                })}
             </ul>
 
             <ul class="footer-icons">
-                <li>
-                <a href="https://www.facebook.com" target="_blank" class="footer-icon"
-                    ><i class="fab fa-facebook" />
-                </a>
-                </li>
-                <li>
-                <a href="https://www.twitter.com" target="_blank" class="footer-icon"
-                    ><i class="fab fa-twitter" />
-                </a>
-                </li>
-                <li>
-                <a href="https://www.tumblr.com" target="_blank" class="footer-icon"
-                    ><i class="fab fa-tumblr" />
-                </a>
-                </li>
+                {socialMedias.map((socialMedia) => {
+                    return (
+                        <li>
+                            <a href={socialMedia.link} target="_blank" className="footer-icon">
+                                <i className={socialMedia.icon_name} />
+                            </a>
+                        </li>
+                        )
+                })}
             </ul>
 
             <p class="copyright">
