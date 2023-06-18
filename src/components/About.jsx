@@ -1,12 +1,11 @@
 import aboutImg from "../images/about.jpeg"
+import Title from "./Title"
 
 const About = () => {
-    <section className="section" id="about">
-        <div className="section-title">
-            <h2> About <span>Us</span>
-            </h2>
-        </div>
-
+    return (
+        <section className="section" id="about">
+        <Title preSpan="About" inSpan="Us" />
+        
         <div className="section-center about-center"> 
             <div className="about-img">
                 <img src={aboutImg} className="about-photo" alt="awesome beach" /> 
@@ -21,6 +20,7 @@ const About = () => {
             </article>
         </div>
     </section>
+    )
 }
 
 export default About

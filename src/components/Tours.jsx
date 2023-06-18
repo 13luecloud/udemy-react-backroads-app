@@ -2,13 +2,12 @@ import tourOneImg from "../images/tour-1.jpeg"
 import tourTwoImg from "../images/tour-2.jpeg"
 import tourThreeImg from "../images/tour-3.jpeg"
 import tourFourImg from "../images/tour-4.jpeg"
+import Title from "./Title"
 
 const Tours = () => {
     return (
     <section class="section" id="tours">
-      <div class="section-title">
-        <h2>featured <span>tours</span></h2>
-      </div>
+      <Title preSpan="Featured" inSpan="Tours" />
 
       <div class="section-center featured-center">
         <article class="tour-card">
