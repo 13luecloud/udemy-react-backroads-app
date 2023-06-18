@@ -1,11 +1,9 @@
+import Title from "./Title"
+
 const Services = () => {
     return (
         <section className="section services" id="services">
-            <div className="section-title">
-                <h2>
-                    Our <span>Services</span>
-                </h2>
-            </div>
+           <Title preSpan="Our" inSpan="Services" />
 
             <div className="section-center services-center">
                 <article className="service">
