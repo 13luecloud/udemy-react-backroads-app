@@ -15,7 +15,7 @@ const Tour = ({tour: {image, date, title, desc, country, days, price}}) => {
                 <span><i class="fas fa-map"></i></span> {country}
               </p>
               <p>{days} days</p>
-              <p>from {price}</p>
+              <p>from Php{price}</p>
             </div>
           </div>
         </article>
