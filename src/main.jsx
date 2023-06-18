@@ -4,7 +4,8 @@ import App from './App'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // Strict mode does additional checks for potential errors, but only runs in development
+  <React.StrictMode> 
     <App />
   </React.StrictMode>,
 )
