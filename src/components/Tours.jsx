@@ -1,7 +1,3 @@
-import tourOneImg from "../images/tour-1.jpeg"
-import tourTwoImg from "../images/tour-2.jpeg"
-import tourThreeImg from "../images/tour-3.jpeg"
-import tourFourImg from "../images/tour-4.jpeg"
 import Title from "./Title"
 
 const Tours = () => {

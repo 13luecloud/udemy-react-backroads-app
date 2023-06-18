@@ -1,3 +1,8 @@
+import tourOneImg from "./images/tour-1.jpeg"
+import tourTwoImg from "./images/tour-2.jpeg"
+import tourThreeImg from "./images/tour-3.jpeg"
+import tourFourImg from "./images/tour-4.jpeg"
+
 // when using in a different file, make sure to spell the variable as spelled in its declaration
 export const pageLinks = [
     {   link: "#home", text: "home"         }, 
@@ -27,5 +32,11 @@ export const services = [
         icon: "fas fa-socks fa-fw",
         title: "Amazing Comfort",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni explicabo pariatur ad! Rerum numquam doloremque error cum quae. Ex eligendi sed a atque corrupti architecto reprehenderit. Praesentium accusantium perspiciatis inventore!"
+    }
+]
+
+export const tours = [
+    {
+
     }
 ]
